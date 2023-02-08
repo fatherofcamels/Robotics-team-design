@@ -1,0 +1,41 @@
+[1.062s] Invoking command in '/home/abubakar/nao_drive/naodriver': PYTHONPATH=/home/abubakar/nao_drive/naodriver/build/naodriver/prefix_override:/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/naodriver build --build-base /home/abubakar/nao_drive/naodriver/build/naodriver/build install --record /home/abubakar/nao_drive/naodriver/build/naodriver/install.log --single-version-externally-managed
+[1.273s] running egg_info
+[1.273s] creating build/naodriver/naodriver.egg-info
+[1.274s] writing build/naodriver/naodriver.egg-info/PKG-INFO
+[1.274s] writing dependency_links to build/naodriver/naodriver.egg-info/dependency_links.txt
+[1.274s] writing entry points to build/naodriver/naodriver.egg-info/entry_points.txt
+[1.274s] writing requirements to build/naodriver/naodriver.egg-info/requires.txt
+[1.274s] writing top-level names to build/naodriver/naodriver.egg-info/top_level.txt
+[1.274s] writing manifest file 'build/naodriver/naodriver.egg-info/SOURCES.txt'
+[1.276s] reading manifest file 'build/naodriver/naodriver.egg-info/SOURCES.txt'
+[1.276s] writing manifest file 'build/naodriver/naodriver.egg-info/SOURCES.txt'
+[1.277s] running build
+[1.277s] running build_py
+[1.277s] creating /home/abubakar/nao_drive/naodriver/build/naodriver/build
+[1.277s] creating /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib
+[1.277s] creating /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib/naodriver
+[1.277s] copying naodriver/__init__.py -> /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib/naodriver
+[1.277s] copying naodriver/my_robot_driver.py -> /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib/naodriver
+[1.277s] running install
+[1.279s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.279s]   warnings.warn(
+[1.279s] running install_lib
+[1.280s] creating /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver
+[1.280s] copying /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib/naodriver/__init__.py -> /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver
+[1.280s] copying /home/abubakar/nao_drive/naodriver/build/naodriver/build/lib/naodriver/my_robot_driver.py -> /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver
+[1.280s] byte-compiling /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver/__init__.py to __init__.cpython-310.pyc
+[1.281s] byte-compiling /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[1.281s] running install_data
+[1.281s] creating /home/abubakar/nao_drive/naodriver/install/naodriver/share/ament_index
+[1.281s] creating /home/abubakar/nao_drive/naodriver/install/naodriver/share/ament_index/resource_index
+[1.281s] creating /home/abubakar/nao_drive/naodriver/install/naodriver/share/ament_index/resource_index/packages
+[1.282s] copying resource/naodriver -> /home/abubakar/nao_drive/naodriver/install/naodriver/share/ament_index/resource_index/packages
+[1.282s] copying package.xml -> /home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver
+[1.282s] copying launch/robot_launch.py -> /home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver
+[1.282s] creating /home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/resource
+[1.282s] copying resource/nao.urdf -> /home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/resource
+[1.282s] running install_egg_info
+[1.283s] Copying build/naodriver/naodriver.egg-info to /home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages/naodriver-0.0.0-py3.10.egg-info
+[1.284s] running install_scripts
+[1.302s] writing list of installed files to '/home/abubakar/nao_drive/naodriver/build/naodriver/install.log'
+[1.322s] Invoked command in '/home/abubakar/nao_drive/naodriver' returned '0': PYTHONPATH=/home/abubakar/nao_drive/naodriver/build/naodriver/prefix_override:/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/naodriver build --build-base /home/abubakar/nao_drive/naodriver/build/naodriver/build install --record /home/abubakar/nao_drive/naodriver/build/naodriver/install.log --single-version-externally-managed

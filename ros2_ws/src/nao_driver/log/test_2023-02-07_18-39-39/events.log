@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000105] (naodriver) JobQueued: {'identifier': 'naodriver', 'dependencies': OrderedDict([('naodriver', '/home/abubakar/nao_drive/naodriver/install/naodriver')])}
+[0.000137] (naodriver) JobStarted: {'identifier': 'naodriver'}
+[0.098864] (-) TimerEvent: {}
+[0.199101] (-) TimerEvent: {}
+[0.222171] (naodriver) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/abubakar/nao_drive/naodriver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'abubakar', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abubakar', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=fe710656a2cf3b0bbab565fb63e29373', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abubakar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abubakar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/abubakar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/abubakar-Yoga-Creator-7-15IMH05:@/tmp/.ICE-unix/1333,unix/abubakar-Yoga-Creator-7-15IMH05:/tmp/.ICE-unix/1333', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0dcf79e4_0e11_4acc_bfa8_02adc4b3a436', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0ZFE01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abubakar/nao_drive/naodriver/install/naodriver:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abubakar/nao_drive/naodriver/build/naodriver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=fe710656a2cf3b0bbab565fb63e29373', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/abubakar/nao_drive/naodriver/build/naodriver/pytest.xml --junit-prefix=naodriver -o cache_dir=/home/abubakar/nao_drive/naodriver/build/naodriver/.pytest_cache'}, 'shell': False}
+[0.299227] (-) TimerEvent: {}
+[0.399437] (-) TimerEvent: {}
+[0.499674] (-) TimerEvent: {}
+[0.599964] (-) TimerEvent: {}
+[0.700290] (-) TimerEvent: {}
+[0.800604] (-) TimerEvent: {}
+[0.900921] (-) TimerEvent: {}
+[0.976164] (naodriver) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.976364] (naodriver) StdoutLine: {'line': b'platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.981828] (naodriver) StdoutLine: {'line': b'cachedir: build/naodriver/.pytest_cache\n'}
+[0.981941] (naodriver) StdoutLine: {'line': b'rootdir: /home/abubakar/nao_drive/naodriver\n'}
+[0.982019] (naodriver) StdoutLine: {'line': b'plugins: ament-lint-0.12.5, launch-testing-1.0.4, ament-pep257-0.12.5, ament-flake8-0.12.5, ament-xmllint-0.12.5, ament-copyright-0.12.5, launch-testing-ros-0.19.4, colcon-core-0.11.0, cov-3.0.0\n'}
+[1.001011] (-) TimerEvent: {}
+[1.101301] (-) TimerEvent: {}
+[1.201811] (-) TimerEvent: {}
+[1.299579] (naodriver) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.299726] (naodriver) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[1.299886] (naodriver) StdoutLine: {'line': b'\n'}
+[1.301890] (-) TimerEvent: {}
+[1.305728] (naodriver) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[1.402040] (-) TimerEvent: {}
+[1.502335] (-) TimerEvent: {}
+[1.538556] (naodriver) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.602452] (-) TimerEvent: {}
+[1.613908] (naodriver) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.614027] (naodriver) StdoutLine: {'line': b'\n'}
+[1.614211] (naodriver) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.614299] (naodriver) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.614363] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.674305] (naodriver) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.676148] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 34 code style errors / warnings:\x1b[0m\n'}
+[1.676713] (naodriver) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:8:49: E231 missing whitespace after ','\x1b[0m\n"}
+[1.676936] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:17:100: E501 line too long (106 > 99 characters)\x1b[0m\n'}
+[1.677081] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:24:27: W291 trailing whitespace\x1b[0m\n'}
+[1.677213] (naodriver) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:33:43: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.677339] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.677463] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.677584] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\x1b[0m\n'}
+[1.677705] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\x1b[0m\n'}
+[1.677843] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\x1b[0m\n'}
+[1.677964] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\x1b[0m\n'}
+[1.678085] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.678217] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.678339] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\x1b[0m\n'}
+[1.678459] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace\x1b[0m\n'}
+[1.678579] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace\x1b[0m\n'}
+[1.678700] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace\x1b[0m\n'}
+[1.678819] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)\x1b[0m\n'}
+[1.678939] (naodriver) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:34:5: F841 local variable 'robot_description' is assigned to but never used\x1b[0m\n"}
+[1.679062] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:37:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.679181] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:44:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.679330] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:46:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.679460] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./install/naodriver/share/naodriver/robot_launch.py:54:26: W292 no newline at end of file\x1b[0m\n'}
+[1.679581] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:1:10: W291 trailing whitespace\x1b[0m\n'}
+[1.679700] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:22:10: W291 trailing whitespace\x1b[0m\n'}
+[1.679819] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:25:13: W291 trailing whitespace\x1b[0m\n'}
+[1.679938] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:32:1: E303 too many blank lines (4)\x1b[0m\n'}
+[1.680057] (naodriver) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./launch/robot_launch.py:34:5: F841 local variable 'robot_description' is assigned to but never used\x1b[0m\n"}
+[1.680177] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:37:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.680294] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:44:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.680413] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:46:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.680546] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/robot_launch.py:54:26: W292 no newline at end of file\x1b[0m\n'}
+[1.680642] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.680737] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.680838] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\x1b[0m\n'}
+[1.680933] (naodriver) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.681029] (naodriver) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.681128] (naodriver) StdoutLine: {'line': b'\n'}
+[1.681225] (naodriver) StdoutLine: {'line': b"./setup.py:8:49: E231 missing whitespace after ','\n"}
+[1.681322] (naodriver) StdoutLine: {'line': b"    ('share/ament_index/resource_index/packages',['resource/' + package_name]),\n"}
+[1.681419] (naodriver) StdoutLine: {'line': b'                                                ^\n'}
+[1.681514] (naodriver) StdoutLine: {'line': b'\n'}
+[1.681609] (naodriver) StdoutLine: {'line': b'./setup.py:17:100: E501 line too long (106 > 99 characters)\n'}
+[1.681705] (naodriver) StdoutLine: {'line': b"            data_files.append((os.path.join('share', package_name, path), [os.path.join(path, filename)]))\n"}
+[1.681801] (naodriver) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.681896] (naodriver) StdoutLine: {'line': b'\n'}
+[1.681990] (naodriver) StdoutLine: {'line': b'./setup.py:24:27: W291 trailing whitespace\n'}
+[1.682085] (naodriver) StdoutLine: {'line': b'    data_files=data_files,   \n'}
+[1.682180] (naodriver) StdoutLine: {'line': b'                          ^\n'}
+[1.682278] (naodriver) StdoutLine: {'line': b'\n'}
+[1.682374] (naodriver) StdoutLine: {'line': b"./setup.py:33:43: E231 missing whitespace after ':'\n"}
+[1.682469] (naodriver) StdoutLine: {'line': b"        'launch.frontend.launch_extension':['launch_ros = launch_ros']\n"}
+[1.682564] (naodriver) StdoutLine: {'line': b'                                          ^\n'}
+[1.682659] (naodriver) StdoutLine: {'line': b'\n'}
+[1.682753] (naodriver) StdoutLine: {'line': b'./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\n'}
+[1.682847] (naodriver) StdoutLine: {'line': b'class MyRobotDriver:\n'}
+[1.682941] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.683035] (naodriver) StdoutLine: {'line': b'\n'}
+[1.683128] (naodriver) StdoutLine: {'line': b'./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\n'}
+[1.683233] (naodriver) StdoutLine: {'line': b'    def step(self):\n'}
+[1.683330] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.683425] (naodriver) StdoutLine: {'line': b'\n'}
+[1.683518] (naodriver) StdoutLine: {'line': b'./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\n'}
+[1.683613] (naodriver) StdoutLine: {'line': b'        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^\n'}
+[1.683709] (naodriver) StdoutLine: {'line': b'\n'}
+[1.683804] (naodriver) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\n'}
+[1.683900] (naodriver) StdoutLine: {'line': b'FORMAT_STR_INVOKE_SCRIPT = \'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"\'\n'}
+[1.683996] (naodriver) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.684092] (naodriver) StdoutLine: {'line': b'\n'}
+[1.684186] (naodriver) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\n'}
+[1.684281] (naodriver) StdoutLine: {'line': b'FORMAT_STR_REMOVE_LEADING_SEPARATOR = \'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi\'\n'}
+[1.684378] (naodriver) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.684473] (naodriver) StdoutLine: {'line': b'\n'}
+[1.684568] (naodriver) StdoutLine: {'line': b'./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\n'}
+[1.684674] (naodriver) StdoutLine: {'line': b'FORMAT_STR_REMOVE_TRAILING_SEPARATOR = \'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi\'\n'}
+[1.684771] (naodriver) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.684867] (naodriver) StdoutLine: {'line': b'\n'}
+[1.684962] (naodriver) StdoutLine: {'line': b'./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\n'}
+[1.685057] (naodriver) StdoutLine: {'line': b'class MyRobotDriver:\n'}
+[1.685152] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.685247] (naodriver) StdoutLine: {'line': b'\n'}
+[1.685342] (naodriver) StdoutLine: {'line': b'./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\n'}
+[1.685446] (naodriver) StdoutLine: {'line': b'    def step(self):\n'}
+[1.685549] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.685628] (naodriver) StdoutLine: {'line': b'\n'}
+[1.685706] (naodriver) StdoutLine: {'line': b'./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\n'}
+[1.685786] (naodriver) StdoutLine: {'line': b'        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^\n'}
+[1.685864] (naodriver) StdoutLine: {'line': b'\n'}
+[1.685942] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace\n'}
+[1.686021] (naodriver) StdoutLine: {'line': b'import os \n'}
+[1.686100] (naodriver) StdoutLine: {'line': b'         ^\n'}
+[1.686179] (naodriver) StdoutLine: {'line': b'\n'}
+[1.686257] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace\n'}
+[1.686335] (naodriver) StdoutLine: {'line': b'        ] \n'}
+[1.686413] (naodriver) StdoutLine: {'line': b'         ^\n'}
+[1.686493] (naodriver) StdoutLine: {'line': b'\n'}
+[1.686571] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace\n'}
+[1.686649] (naodriver) StdoutLine: {'line': b'    return [ \n'}
+[1.686728] (naodriver) StdoutLine: {'line': b'            ^\n'}
+[1.686807] (naodriver) StdoutLine: {'line': b'\n'}
+[1.686884] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)\n'}
+[1.686963] (naodriver) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[1.687041] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.687119] (naodriver) StdoutLine: {'line': b'\n'}
+[1.687204] (naodriver) StdoutLine: {'line': b"./install/naodriver/share/naodriver/robot_launch.py:34:5: F841 local variable 'robot_description' is assigned to but never used\n"}
+[1.687288] (naodriver) StdoutLine: {'line': b"    robot_description = pathlib.Path(os.path.join(package_dir, 'resource', 'nao.urdf'))\n"}
+[1.687367] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.687446] (naodriver) StdoutLine: {'line': b'\n'}
+[1.687524] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:37:5: E303 too many blank lines (2)\n'}
+[1.687602] (naodriver) StdoutLine: {'line': b'    webots = WebotsLauncher(\n'}
+[1.687680] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.687758] (naodriver) StdoutLine: {'line': b'\n'}
+[1.687836] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:44:5: E303 too many blank lines (2)\n'}
+[1.687915] (naodriver) StdoutLine: {'line': b'    return LaunchDescription([\n'}
+[1.687994] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.688073] (naodriver) StdoutLine: {'line': b'\n'}
+[1.688150] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:46:1: W293 blank line contains whitespace\n'}
+[1.688229] (naodriver) StdoutLine: {'line': b'        \n'}
+[1.688305] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.688383] (naodriver) StdoutLine: {'line': b'\n'}
+[1.688461] (naodriver) StdoutLine: {'line': b'./install/naodriver/share/naodriver/robot_launch.py:54:26: W292 no newline at end of file\n'}
+[1.688564] (naodriver) StdoutLine: {'line': b'    ] + get_ros2_nodes())                         ^\n'}
+[1.688644] (naodriver) StdoutLine: {'line': b'\n'}
+[1.688722] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:1:10: W291 trailing whitespace\n'}
+[1.688800] (naodriver) StdoutLine: {'line': b'import os \n'}
+[1.688879] (naodriver) StdoutLine: {'line': b'         ^\n'}
+[1.688957] (naodriver) StdoutLine: {'line': b'\n'}
+[1.689035] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:22:10: W291 trailing whitespace\n'}
+[1.689113] (naodriver) StdoutLine: {'line': b'        ] \n'}
+[1.689191] (naodriver) StdoutLine: {'line': b'         ^\n'}
+[1.689270] (naodriver) StdoutLine: {'line': b'\n'}
+[1.689348] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:25:13: W291 trailing whitespace\n'}
+[1.689427] (naodriver) StdoutLine: {'line': b'    return [ \n'}
+[1.689506] (naodriver) StdoutLine: {'line': b'            ^\n'}
+[1.689590] (naodriver) StdoutLine: {'line': b'\n'}
+[1.689669] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:32:1: E303 too many blank lines (4)\n'}
+[1.689748] (naodriver) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[1.689827] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.689905] (naodriver) StdoutLine: {'line': b'\n'}
+[1.689984] (naodriver) StdoutLine: {'line': b"./launch/robot_launch.py:34:5: F841 local variable 'robot_description' is assigned to but never used\n"}
+[1.690065] (naodriver) StdoutLine: {'line': b"    robot_description = pathlib.Path(os.path.join(package_dir, 'resource', 'nao.urdf'))\n"}
+[1.690145] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.690225] (naodriver) StdoutLine: {'line': b'\n'}
+[1.690303] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:37:5: E303 too many blank lines (2)\n'}
+[1.690383] (naodriver) StdoutLine: {'line': b'    webots = WebotsLauncher(\n'}
+[1.690476] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.690543] (naodriver) StdoutLine: {'line': b'\n'}
+[1.690608] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:44:5: E303 too many blank lines (2)\n'}
+[1.690675] (naodriver) StdoutLine: {'line': b'    return LaunchDescription([\n'}
+[1.690741] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.690807] (naodriver) StdoutLine: {'line': b'\n'}
+[1.690873] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:46:1: W293 blank line contains whitespace\n'}
+[1.690940] (naodriver) StdoutLine: {'line': b'        \n'}
+[1.691007] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.691073] (naodriver) StdoutLine: {'line': b'\n'}
+[1.691139] (naodriver) StdoutLine: {'line': b'./launch/robot_launch.py:54:26: W292 no newline at end of file\n'}
+[1.691214] (naodriver) StdoutLine: {'line': b'    ] + get_ros2_nodes())                         ^\n'}
+[1.691283] (naodriver) StdoutLine: {'line': b'\n'}
+[1.691349] (naodriver) StdoutLine: {'line': b'./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)\n'}
+[1.691416] (naodriver) StdoutLine: {'line': b'class MyRobotDriver:\n'}
+[1.691483] (naodriver) StdoutLine: {'line': b'^\n'}
+[1.691549] (naodriver) StdoutLine: {'line': b'\n'}
+[1.691615] (naodriver) StdoutLine: {'line': b'./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)\n'}
+[1.691681] (naodriver) StdoutLine: {'line': b'    def step(self):\n'}
+[1.691748] (naodriver) StdoutLine: {'line': b'    ^\n'}
+[1.691814] (naodriver) StdoutLine: {'line': b'\n'}
+[1.691880] (naodriver) StdoutLine: {'line': b'./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file\n'}
+[1.691947] (naodriver) StdoutLine: {'line': b'        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^\n'}
+[1.692014] (naodriver) StdoutLine: {'line': b'\n'}
+[1.692080] (naodriver) StdoutLine: {'line': b"2     E231 missing whitespace after ','\n"}
+[1.692147] (naodriver) StdoutLine: {'line': b'12    E303 too many blank lines (3)\n'}
+[1.692220] (naodriver) StdoutLine: {'line': b'4     E501 line too long (109 > 99 characters)\n'}
+[1.692287] (naodriver) StdoutLine: {'line': b"2     F841 local variable 'robot_description' is assigned to but never used\n"}
+[1.692354] (naodriver) StdoutLine: {'line': b'7     W291 trailing whitespace\n'}
+[1.692421] (naodriver) StdoutLine: {'line': b'5     W292 no newline at end of file\n'}
+[1.692489] (naodriver) StdoutLine: {'line': b'2     W293 blank line contains whitespace\n'}
+[1.692555] (naodriver) StdoutLine: {'line': b'\n'}
+[1.692621] (naodriver) StdoutLine: {'line': b'15 files checked\n'}
+[1.692687] (naodriver) StdoutLine: {'line': b'34 errors\n'}
+[1.692753] (naodriver) StdoutLine: {'line': b'\n'}
+[1.692819] (naodriver) StdoutLine: {'line': b"'E'-type errors: 18\n"}
+[1.692889] (naodriver) StdoutLine: {'line': b"'F'-type errors: 2\n"}
+[1.692956] (naodriver) StdoutLine: {'line': b"'W'-type errors: 14\n"}
+[1.693021] (naodriver) StdoutLine: {'line': b'\n'}
+[1.693086] (naodriver) StdoutLine: {'line': b'Checked files:\n'}
+[1.693152] (naodriver) StdoutLine: {'line': b'\n'}
+[1.693217] (naodriver) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.693283] (naodriver) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.693348] (naodriver) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.693413] (naodriver) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.693479] (naodriver) StdoutLine: {'line': b'* ./naodriver/__init__.py\n'}
+[1.693544] (naodriver) StdoutLine: {'line': b'* ./naodriver/my_robot_driver.py\n'}
+[1.693609] (naodriver) StdoutLine: {'line': b'* ./install/_local_setup_util_sh.py\n'}
+[1.693675] (naodriver) StdoutLine: {'line': b'* ./install/_local_setup_util_ps1.py\n'}
+[1.693741] (naodriver) StdoutLine: {'line': b'* ./install/naodriver/lib/python3.10/site-packages/naodriver/__init__.py\n'}
+[1.693807] (naodriver) StdoutLine: {'line': b'* ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py\n'}
+[1.693874] (naodriver) StdoutLine: {'line': b'* ./install/naodriver/share/naodriver/robot_launch.py\n'}
+[1.693942] (naodriver) StdoutLine: {'line': b'* ./launch/robot_launch.py\n'}
+[1.694007] (naodriver) StdoutLine: {'line': b'* ./build/naodriver/prefix_override/sitecustomize.py\n'}
+[1.694073] (naodriver) StdoutLine: {'line': b'* ./build/naodriver/build/lib/naodriver/__init__.py\n'}
+[1.694140] (naodriver) StdoutLine: {'line': b'* ./build/naodriver/build/lib/naodriver/my_robot_driver.py\n'}
+[1.694206] (naodriver) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.694274] (naodriver) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.694342] (naodriver) StdoutLine: {'line': b'- generated xml file: /home/abubakar/nao_drive/naodriver/build/naodriver/pytest.xml -\n'}
+[1.694410] (naodriver) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.694478] (naodriver) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 34 code style...\n'}
+[1.694546] (naodriver) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.70s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.694616] (naodriver) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.694699] (naodriver) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.694767] (naodriver) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.694838] (naodriver) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.694905] (naodriver) StderrLine: {'line': b'\n'}
+[1.694970] (naodriver) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.702593] (-) TimerEvent: {}
+[1.742022] (naodriver) CommandEnded: {'returncode': 1}
+[1.742524] (naodriver) TestFailure: {'identifier': 'naodriver'}
+[1.742593] (naodriver) JobEnded: {'identifier': 'naodriver', 'rc': 0}
+[1.743332] (-) EventReactorShutdown: {}

@@ -1,0 +1,89 @@
+[1.951s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.952s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4947d97010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f49487423e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f49487423e0>>)
+[2.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.153s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abubakar/nao_drive/naodriver'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.250s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'naodriver'
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/humble
+[2.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.467s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_args' from command line to 'None'
+[2.467s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_target' from command line to 'None'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_clean_first' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'cmake_force_configure' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'ament_cmake_args' from command line to 'None'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'naodriver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.468s] DEBUG:colcon.colcon_core.verb:Building package 'naodriver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abubakar/nao_drive/naodriver/build/naodriver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abubakar/nao_drive/naodriver/install/naodriver', 'merge_install': False, 'path': '/home/abubakar/nao_drive/naodriver', 'symlink_install': False, 'test_result_base': None}
+[2.468s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.471s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abubakar/nao_drive/naodriver' with build type 'ament_python'
+[2.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('naodriver', 'ament_prefix_path')
+[2.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/ament_prefix_path.ps1'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/ament_prefix_path.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/ament_prefix_path.sh'
+[2.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.739s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abubakar/nao_drive/naodriver'
+[2.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abubakar/nao_drive/naodriver': PYTHONPATH=/home/abubakar/nao_drive/naodriver/build/naodriver/prefix_override:/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/naodriver build --build-base /home/abubakar/nao_drive/naodriver/build/naodriver/build install --record /home/abubakar/nao_drive/naodriver/build/naodriver/install.log --single-version-externally-managed
+[3.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abubakar/nao_drive/naodriver' returned '0': PYTHONPATH=/home/abubakar/nao_drive/naodriver/build/naodriver/prefix_override:/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/naodriver build --build-base /home/abubakar/nao_drive/naodriver/build/naodriver/build install --record /home/abubakar/nao_drive/naodriver/build/naodriver/install.log --single-version-externally-managed
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver' for CMake module files
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver' for CMake config files
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver/lib'
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver/bin'
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver/lib/pkgconfig/naodriver.pc'
+[3.832s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver/lib/python3.10/site-packages'
+[3.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('naodriver', 'pythonpath')
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/pythonpath.ps1'
+[3.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/pythonpath.dsv'
+[3.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/hook/pythonpath.sh'
+[3.840s] Level 1:colcon.colcon_core.environment:checking '/home/abubakar/nao_drive/naodriver/install/naodriver/bin'
+[3.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naodriver)
+[3.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/package.ps1'
+[3.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/package.dsv'
+[3.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/package.sh'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/package.bash'
+[3.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/abubakar/nao_drive/naodriver/install/naodriver/share/naodriver/package.zsh'
+[3.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abubakar/nao_drive/naodriver/install/naodriver/share/colcon-core/packages/naodriver)
+[3.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.891s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.928s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakar/nao_drive/naodriver/install/local_setup.ps1'
+[3.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abubakar/nao_drive/naodriver/install/_local_setup_util_ps1.py'
+[3.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakar/nao_drive/naodriver/install/setup.ps1'
+[3.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakar/nao_drive/naodriver/install/local_setup.sh'
+[3.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abubakar/nao_drive/naodriver/install/_local_setup_util_sh.py'
+[3.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakar/nao_drive/naodriver/install/setup.sh'
+[3.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakar/nao_drive/naodriver/install/local_setup.bash'
+[3.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakar/nao_drive/naodriver/install/setup.bash'
+[3.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abubakar/nao_drive/naodriver/install/local_setup.zsh'
+[3.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abubakar/nao_drive/naodriver/install/setup.zsh'

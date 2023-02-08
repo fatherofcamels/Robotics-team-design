@@ -1,0 +1,207 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: build/naodriver/.pytest_cache
+rootdir: /home/abubakar/nao_drive/naodriver
+plugins: ament-lint-0.12.5, launch-testing-1.0.4, ament-pep257-0.12.5, ament-flake8-0.12.5, ament-xmllint-0.12.5, ament-copyright-0.12.5, launch-testing-ros-0.19.4, colcon-core-0.11.0, cov-3.0.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 30 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:8:49: E231 missing whitespace after ','[0m
+[1m[31mE     ./setup.py:17:100: E501 line too long (106 > 99 characters)[0m
+[1m[31mE     ./setup.py:24:27: W291 trailing whitespace[0m
+[1m[31mE     ./setup.py:33:43: E231 missing whitespace after ':'[0m
+[1m[31mE     ./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)[0m
+[1m[31mE     ./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)[0m
+[1m[31mE     ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)[0m
+[1m[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)[0m
+[1m[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:42:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:44:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./install/naodriver/share/naodriver/robot_launch.py:52:26: W292 no newline at end of file[0m
+[1m[31mE     ./launch/robot_launch.py:1:10: W291 trailing whitespace[0m
+[1m[31mE     ./launch/robot_launch.py:22:10: W291 trailing whitespace[0m
+[1m[31mE     ./launch/robot_launch.py:25:13: W291 trailing whitespace[0m
+[1m[31mE     ./launch/robot_launch.py:32:1: E303 too many blank lines (4)[0m
+[1m[31mE     ./launch/robot_launch.py:42:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./launch/robot_launch.py:44:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./launch/robot_launch.py:52:26: W292 no newline at end of file[0m
+[1m[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)[0m
+[1m[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)[0m
+[1m[31mE     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:8:49: E231 missing whitespace after ','
+    ('share/ament_index/resource_index/packages',['resource/' + package_name]),
+                                                ^
+
+./setup.py:17:100: E501 line too long (106 > 99 characters)
+            data_files.append((os.path.join('share', package_name, path), [os.path.join(path, filename)]))
+                                                                                                   ^
+
+./setup.py:24:27: W291 trailing whitespace
+    data_files=data_files,   
+                          ^
+
+./setup.py:33:43: E231 missing whitespace after ':'
+        'launch.frontend.launch_extension':['launch_ros = launch_ros']
+                                          ^
+
+./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+class MyRobotDriver:
+^
+
+./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+    def step(self):
+    ^
+
+./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^
+
+./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)
+FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"'
+                                                                                                   ^
+
+./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)
+FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
+                                                                                                   ^
+
+./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+                                                                                                   ^
+
+./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+class MyRobotDriver:
+^
+
+./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+    def step(self):
+    ^
+
+./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^
+
+./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace
+import os 
+         ^
+
+./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace
+        ] 
+         ^
+
+./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace
+    return [ 
+            ^
+
+./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)
+def generate_launch_description():
+^
+
+./install/naodriver/share/naodriver/robot_launch.py:42:5: E303 too many blank lines (2)
+    return LaunchDescription([
+    ^
+
+./install/naodriver/share/naodriver/robot_launch.py:44:1: W293 blank line contains whitespace
+        
+^
+
+./install/naodriver/share/naodriver/robot_launch.py:52:26: W292 no newline at end of file
+    ] + get_ros2_nodes())                         ^
+
+./launch/robot_launch.py:1:10: W291 trailing whitespace
+import os 
+         ^
+
+./launch/robot_launch.py:22:10: W291 trailing whitespace
+        ] 
+         ^
+
+./launch/robot_launch.py:25:13: W291 trailing whitespace
+    return [ 
+            ^
+
+./launch/robot_launch.py:32:1: E303 too many blank lines (4)
+def generate_launch_description():
+^
+
+./launch/robot_launch.py:42:5: E303 too many blank lines (2)
+    return LaunchDescription([
+    ^
+
+./launch/robot_launch.py:44:1: W293 blank line contains whitespace
+        
+^
+
+./launch/robot_launch.py:52:26: W292 no newline at end of file
+    ] + get_ros2_nodes())                         ^
+
+./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+class MyRobotDriver:
+^
+
+./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+    def step(self):
+    ^
+
+./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+        rclpy.spin_once(self.__node, timeout_sec=0)                                                   ^
+
+2     E231 missing whitespace after ','
+10    E303 too many blank lines (3)
+4     E501 line too long (109 > 99 characters)
+7     W291 trailing whitespace
+5     W292 no newline at end of file
+2     W293 blank line contains whitespace
+
+15 files checked
+30 errors
+
+'E'-type errors: 16
+'W'-type errors: 14
+
+Checked files:
+
+* ./setup.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./naodriver/__init__.py
+* ./naodriver/my_robot_driver.py
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/naodriver/lib/python3.10/site-packages/naodriver/__init__.py
+* ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py
+* ./install/naodriver/share/naodriver/robot_launch.py
+* ./launch/robot_launch.py
+* ./build/naodriver/prefix_override/sitecustomize.py
+* ./build/naodriver/build/lib/naodriver/__init__.py
+* ./build/naodriver/build/lib/naodriver/my_robot_driver.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/abubakar/nao_drive/naodriver/build/naodriver/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 30 code style...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.41s[0m[31m ==============[0m
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html

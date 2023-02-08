@@ -1,0 +1,6 @@
+source;share/naodriver/hook/pythonpath.ps1
+source;share/naodriver/hook/pythonpath.dsv
+source;share/naodriver/hook/pythonpath.sh
+source;share/naodriver/hook/ament_prefix_path.ps1
+source;share/naodriver/hook/ament_prefix_path.dsv
+source;share/naodriver/hook/ament_prefix_path.sh

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.351" timestamp="2023-02-07T18:45:30.042711" hostname="abubakar-Yoga-Creator-7-15IMH05"><testcase classname="naodriver.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/abubakar/nao_drive/naodriver/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="naodriver.test.test_flake8" name="test_flake8" time="0.144"><failure message="AssertionError: Found 30 code style errors / warnings:&#10;  ./setup.py:8:49: E231 missing whitespace after ','&#10;  ./setup.py:17:100: E501 line too long (106 &gt; 99 characters)&#10;  ./setup.py:24:27: W291 trailing whitespace&#10;  ./setup.py:33:43: E231 missing whitespace after ':'&#10;  ./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)&#10;  ./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)&#10;  ./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file&#10;  ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 &gt; 99 characters)&#10;  ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 &gt; 99 characters)&#10;  ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 &gt; 99 characters)&#10;  ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)&#10;  ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)&#10;  ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file&#10;  ./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace&#10;  ./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace&#10;  ./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace&#10;  ./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)&#10;  ./install/naodriver/share/naodriver/robot_launch.py:42:5: E303 too many blank lines (2)&#10;  ./install/naodriver/share/naodriver/robot_launch.py:44:1: W293 blank line contains whitespace&#10;  ./install/naodriver/share/naodriver/robot_launch.py:52:26: W292 no newline at end of file&#10;  ./launch/robot_launch.py:1:10: W291 trailing whitespace&#10;  ./launch/robot_launch.py:22:10: W291 trailing whitespace&#10;  ./launch/robot_launch.py:25:13: W291 trailing whitespace&#10;  ./launch/robot_launch.py:32:1: E303 too many blank lines (4)&#10;  ./launch/robot_launch.py:42:5: E303 too many blank lines (2)&#10;  ./launch/robot_launch.py:44:1: W293 blank line contains whitespace&#10;  ./launch/robot_launch.py:52:26: W292 no newline at end of file&#10;  ./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)&#10;  ./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)&#10;  ./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 30 code style errors / warnings:
+E     ./setup.py:8:49: E231 missing whitespace after ','
+E     ./setup.py:17:100: E501 line too long (106 &gt; 99 characters)
+E     ./setup.py:24:27: W291 trailing whitespace
+E     ./setup.py:33:43: E231 missing whitespace after ':'
+E     ./naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+E     ./naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+E     ./naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+E     ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 &gt; 99 characters)
+E     ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 &gt; 99 characters)
+E     ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 &gt; 99 characters)
+E     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+E     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+E     ./install/naodriver/lib/python3.10/site-packages/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+E     ./install/naodriver/share/naodriver/robot_launch.py:1:10: W291 trailing whitespace
+E     ./install/naodriver/share/naodriver/robot_launch.py:22:10: W291 trailing whitespace
+E     ./install/naodriver/share/naodriver/robot_launch.py:25:13: W291 trailing whitespace
+E     ./install/naodriver/share/naodriver/robot_launch.py:32:1: E303 too many blank lines (4)
+E     ./install/naodriver/share/naodriver/robot_launch.py:42:5: E303 too many blank lines (2)
+E     ./install/naodriver/share/naodriver/robot_launch.py:44:1: W293 blank line contains whitespace
+E     ./install/naodriver/share/naodriver/robot_launch.py:52:26: W292 no newline at end of file
+E     ./launch/robot_launch.py:1:10: W291 trailing whitespace
+E     ./launch/robot_launch.py:22:10: W291 trailing whitespace
+E     ./launch/robot_launch.py:25:13: W291 trailing whitespace
+E     ./launch/robot_launch.py:32:1: E303 too many blank lines (4)
+E     ./launch/robot_launch.py:42:5: E303 too many blank lines (2)
+E     ./launch/robot_launch.py:44:1: W293 blank line contains whitespace
+E     ./launch/robot_launch.py:52:26: W292 no newline at end of file
+E     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:5:1: E303 too many blank lines (3)
+E     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:13:5: E303 too many blank lines (2)
+E     ./build/naodriver/build/lib/naodriver/my_robot_driver.py:14:52: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="naodriver.test.test_pep257" name="test_pep257" time="0.083" /></testsuite></testsuites>
