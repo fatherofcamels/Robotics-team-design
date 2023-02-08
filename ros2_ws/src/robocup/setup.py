@@ -1,7 +1,7 @@
 from setuptools import setup
 
-package_name = 'Robocup-Team1'
-# Changes still to be made on the setup file
+package_name = 'robocup'
+
 setup(
     name=package_name,
     version='0.0.0',
@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='',
+    maintainer='abubakar',
     maintainer_email='ayusuf13@hotmail.co.uk',
     description='TODO: Package description',
-    license='Apache License 2.0',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sole_controller = robocup.sole_controller:main'
         ],
     },
 )
